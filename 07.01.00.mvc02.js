@@ -215,21 +215,7 @@ async function viewPayment(request, response) {
     response.render("payment", { username : request.session.login_user , productlist : listsp });
 }
 
-var orderX = new Order( {
-    _id : new mongosee.mongo.ObjectId(),
-    StaffID : vusername,
-    ItemsList : dssp,
-    Total : 0
-} );
 
-var connect = mongosee.createConnection(uri);
-const xOrder = mongosee.model("Order", orderSchema, "Order");
-await xOrder.create({
-    _id : new mongosee.mongo.ObjectId(),
-    StaffID : vusername,
-    ItemsList : dssp,
-    Total : 0
-});
 
 response.render("payment", { username : request.session.login_user , productlist : listsp });
 
