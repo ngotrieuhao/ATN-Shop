@@ -217,9 +217,6 @@ async function viewPayment(request, response) {
 
 
 
-response.render("payment", { username : request.session.login_user , productlist : listsp });
-
-
 
 /// ***************** ***************** *****************
 app.get('/report', viewReport);
