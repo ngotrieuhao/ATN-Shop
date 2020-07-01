@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "07.01.00.mvc02.js",
   "scripts": {
-    "start": "node 07.01.00.mvc02.js",
+    "start": "node 07.01.00.mvc02",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
