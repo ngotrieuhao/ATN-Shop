@@ -1,0 +1,418 @@
+        body {
+            background: url(../img/fancy_shadow_ne.png);
+            background-size: 7px;
+        }
+        .post-entry {
+            border-top: 1px dotted #c2c2c2;
+            padding-top: 20px;
+            margin-top: 10px;
+          }
+          .more-link:after {
+            content: "\00BB";
+            color: #666666;
+            padding-left: 5px;
+          }
+          .readmore-fd {
+            width: 101px;
+            height: 24px;
+            display: block;
+            font-size: 10px;
+            text-decoration: none;
+            background-repeat:no-repeat;
+            background-image:url();
+            }
+            .readmore-fd:hover {
+            background-image:url();
+            }
+
+        #dk {
+            margin: 0px auto;
+            width: 900px;
+            border: 1px solid #ccc;
+            background: rgb(95, 76, 76);
+        }
+
+        td {
+            padding: 5px 0px;
+        }
+        .leftcolumn h1{
+            margin-top: 1px ;
+        }
+        .rightcolumn h1{
+            margin-top: 1px ;
+        }
+
+        #nd {
+            margin: 0px 150px;
+            width: 900px;
+        }
+
+        label {
+            margin: 0px 30px;
+            color: #000020;
+            font-size: 20px;
+            font-family: serif;
+        }
+
+        .input1 {
+            padding: 5px 30px;
+            font-family: serif;
+            font-size: 20px;
+            margin-left: 40px;
+        }
+
+        span {
+            color: #F60;
+        }
+
+        .nut {
+            width: 100px;
+            padding: 6px 3px;
+            font-size: 18px;
+        }
+
+        p.xacnhanten {
+            margin-left: 40px;
+            width: 200px;
+            color: #F60;
+            font-size: 17px;
+        }
+
+        #hide {
+            display: none
+        }
+
+        #load {
+            display: inline-block;
+        }
+
+
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            text-align: left;
+            background: url(http://file.vforum.vn/hinh/2016/10/anh-bia-bong-da-anh-bia-the-thao-dep-5.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px;
+            width: 1313px;
+            line-height: 350px;
+
+        }
+
+
+        .header h1 {
+            font-size: 50px;
+
+            color: orangered;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .subnav {
+            display: none;
+            margin-top: 50px;
+            position: absolute;
+            background-color: #333;
+        }
+
+        .subnav a {
+            border-top: 1px;
+        }
+
+        .subnav-shirt {
+            margin-left: 180px;
+            width: 100px;
+
+        }
+        .subnav-shoes {
+            margin-left: 300px;
+            width: 100px;
+
+        }
+
+        .nav-about:hover .subnav-about {
+            display: block;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 70%;
+            background-color: #aaaaaa;
+            margin-top: 30px;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            text-align: center;
+            width: 30%;
+            
+            padding-left: 15px;
+            margin-top: 30px;
+            line-height: 1.5;
+        }
+        /* Fake image */
+        .card {
+            background-color: #aaaaaa;
+            padding: 20px;
+        
+        }
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hotline-phone-ring-wrap {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 999999;
+        }
+
+        .hotline-phone-ring {
+            position: relative;
+            visibility: visible;
+            background-color: transparent;
+            width: 110px;
+            height: 110px;
+            cursor: pointer;
+            z-index: 11;
+            transition: 5s;
+            left: 0;
+            bottom: 0;
+            display: block;
+        }
+
+        .hotline-phone-ring-circle {
+            width: 85px;
+            height: 85px;
+            top: 10px;
+            left: 10px;
+            position: absolute;
+            background-color: transparent;
+            border-radius: 100%;
+            border: 2px solid #e60808;
+            -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+            animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+            transition: all .5s;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            opacity: 0.5;
+        }
+
+        .hotline-phone-ring-circle-fill {
+            width: 55px;
+            height: 55px;
+            top: 25px;
+            left: 25px;
+            position: absolute;
+            background-color: rgba(230, 8, 8, 0.7);
+            border-radius: 100%;
+            border: 2px solid transparent;
+            -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+            animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+            transition: all .5s;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+
+        .hotline-phone-ring-img-circle {
+            background-color: #e60808;
+            width: 33px;
+            height: 33px;
+            top: 37px;
+            left: 37px;
+            position: absolute;
+            background-size: 20px;
+            border-radius: 100%;
+            border: 2px solid transparent;
+            -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+            animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hotline-phone-ring-img-circle .pps-btn-img {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .hotline-phone-ring-img-circle .pps-btn-img img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .hotline-bar {
+            position: absolute;
+            background: rgba(230, 8, 8, 0.75);
+            height: 40px;
+            width: 160px;
+            line-height: 40px;
+            border-radius: 3px;
+            padding: 0 10px;
+            background-size: 100%;
+            cursor: pointer;
+            transition: all 0.8s;
+            -webkit-transition: all 0.8s;
+            z-index: 9;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 50px !important;
+            /* width: 175px !important; */
+            left: 33px;
+            bottom: 37px;
+        }
+
+        .hotline-bar>a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            text-indent: 50px;
+            display: block;
+            letter-spacing: 1px;
+            line-height: 40px;
+            font-family: Arial;
+        }
+
+        .hotline-bar>a:hover,
+        .hotline-bar>a:active {
+            color: #fff;
+        }
+
+        .contact {
+            text-align: left;
+            width: 340px;
+        }
+
+        .information {
+            text-align: left;
+            float: center;
+            width: 300px;
+
+        }
+
+        .policy {
+            text-align: left;
+            width: 300px;
+        }
+
+        .clearfix {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .leftcolumn img{
+            width: 300px;
+            height: 130px;
+        }
+        .googlemap iframe{
+            display: block; margin-left: auto; margin-right: auto;
+        }
+        .leftcolumn img { 
+            width: 760px;
+            height: 300px;
+        }
+        .leftcolumn h2{
+            font-size: 28px;
+            color: 	#6A5ACD;
+        } 
+        .rightcolumn img {
+            width: 330px ;
+            height: 150px;
+        }
+
+        * { box-sizing: border-box; }
+
+
+        @media (max-width: 768px) {
+            .hotline-bar {
+                display: none;
+            }
+        }
+
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media only screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+
+            .header {
+                float: none;
+                width: 100%
+            }
+
+
+            .header h1 {
+                float: none;
+                width: 100%
+            }
+
+        }
